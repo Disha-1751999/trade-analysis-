@@ -61,12 +61,12 @@ const TableComponent = () => {
     if (!date || !trade_code || !high || !low || !open || !close || !volume) {
       toast.error("Please fill all field");
     } else {
+      toast.success(
+        "This may take some time to update table data. Please wait !"
+      );
       let res = await UpdateTradeRequest(editedRow, editing);
       if (res) {
-        setEditing(null);
-        toast.success(
-          "This may take some time to update table data. Please wait !"
-        );
+        setEditing(null);        
         await TradeListRequest();
         toast.success("Successfully Updated");
       }
@@ -85,6 +85,9 @@ const TableComponent = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         (async () => {
+          toast.success(
+            "This may take some time to update table data. Please wait !"
+          );
           let res = await RemoveTradeRequest(id);
           if (res) {
             Swal.fire({
@@ -92,9 +95,6 @@ const TableComponent = () => {
               text: "Your data has been deleted.",
               icon: "success",
             });
-            toast.success(
-              "This may take some time to update table data. Please wait !"
-            );
             setCurrentPage(1);
             await TradeListRequest();
           } else {

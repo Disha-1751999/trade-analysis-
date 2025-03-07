@@ -103,16 +103,16 @@ npm run dev
 
 The deployment links for the application:
 
-Frontend: [Deployed Frontend](https://task-management-app-client-lake.vercel.app/)
+Frontend: [Deployed Frontend](https://trade-analysis-application-client.vercel.app)
 
-Backend: [Deployed Backend](https://task-management-app-server-henna.vercel.app/)
+Backend: [Deployed Backend](https://github.com/Disha-1751999/trade-analysis-/blob/main/client/public/table.PNG)
 
 
 
 # DEMO
 
 
-![chart](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/register.PNG)
+![chart](https://github.com/Disha-1751999/trade-analysis-/blob/main/client/public/chart.PNG)
 ![table](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/login.PNG)
 
 
