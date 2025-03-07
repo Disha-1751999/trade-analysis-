@@ -113,7 +113,7 @@ Backend: [Deployed Backend](https://github.com/Disha-1751999/trade-analysis-/blo
 
 
 ![chart](https://github.com/Disha-1751999/trade-analysis-/blob/main/client/public/chart.PNG)
-![table](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/login.PNG)
+![table](https://github.com/Disha-1751999/trade-analysis-/blob/main/client/public/table.PNG)
 
 
 
